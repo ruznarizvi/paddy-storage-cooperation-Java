@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- <title>FlexStart Bootstrap Template - Index</title> -->
+    <meta content="" name="description" />
+
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: FlexStart - v1.8.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+      <div
+        class="
+          container-fluid container-xl
+          d-flex
+          align-items-center
+          justify-content-between
+        "
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- <img src="assets/img/logo.png" alt="" /> -->
+          <span style="font-size: 22px">Paddy Storage Cooperation (PSC)</span>
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link" href="index.html">Dashboard</a>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
+            <!-- <li><a class="nav-link scrollto" href="#services">Paddy</a></li> -->
+            <li>
+              <a class="navlink" href="manage-paddy.html">Manage Paddy</a>
+            </li>
+            <li>
+              <a class="active" href="manage-farmers.html">Manage Farmers</a>
+            </li>
+            <li><a class="nav-link scrollto" href="manage-requests.html">Manage Requests</a></li>
+
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <!-- <li>
+              <a class="getstarted scrollto" href="#about">Get Started</a>
+            </li> -->
+            <li>
+              <a class="nav-link">
+                <i
+                  style="font-size: 16px; margin-right: 0.2rem"
+                  class="fas fa-sign-out-alt"
+                ></i
+                >Logout</a
+              >
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section
+        id="about"
+        class="about"
+        style="background-color: rgba(218, 228, 255, 0.3) !important; height: 100vh"
+      >
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-20 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <!-- <div class="content">lk</div> -->
+              <section data-aos="fade-up" data-aos-delay="200">
+                <button type="button"  data-toggle="modal" data-target="#registerFarmer"class="btn btn-success">Register Farmer</button>
+                <h5 style="text-align: center;margin: 1rem">FARMERS INFO</h5>
+                <div class="scrollmenu">
+                <table class="table table-hover table-bordered container "  >
+                  <thead>
+                    <tr>
+                      <th scope="col" style="width:10%">Farmer Id</th>
+                      <th scope="col" style="width:10%">First Name</th>
+                      <th scope="col" style="width:10%">Last Name</th>
+                      <th scope="col" style="width:18%">Address</th>
+                      <th scope="col">City/Town</th>
+                      <th scope="col">District/Province/Area</th>
+                      <th scope="col">Email</th>
+                      <th scope="col">Phone No</th>
+                      <th scope="col">Gender</th>
+                      <th scope="col">Land Holding</th>
+                      <th scope="col">Action</th>
+             
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <!-- unique id generated using current mm/dd and a random no generator -->
+                      <th scope="row">UID-1117098</th>
+                      <td>Ravi</td>
+                      <td>Das</td>
+                      <td>380/2A, JINASNA MAWATHA</td>
+                      <td>MAHARA</td>
+                      <td>Gampaha</td>
+                      <td>ravi098@gmail.com</td>
+                      <td>0777435267</td>
+                      <td>Male</td>
+                      <td>1-2 Hectare</td>
+                      <td><a class="btn btn-primary" style="margin-right:0.5rem" data-toggle="modal" data-target="#editFarmer">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">UID-1119922</th>
+                      <td>Lareef</td>
+                      <td>Hathem</td>
+                      <td>39 Badulla Road, Diyatalawa</td>
+                      <td>Diyatalawa</td>
+                      <td>Badulla</td>
+                      <td>lareefhathem92@gmail.com</td>
+                      <td>0773348576</td>
+                      <td>Male</td>
+                      <td>>2 Hectare</td>
+                      <td><a class="btn btn-primary" style="margin-right:0.5rem" data-toggle="modal" data-target="#editFarmer">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">UID-1122128</th>
+                      <td>Sunil</td>
+                      <td>Perera</td>
+                      <td>111, South Circle Road, Gettuwana, Kurunegala</td>
+                      <td>Gettuwana </td>
+                      <td>Kurunegala </td>
+                      <td>sunil293@gmail.com</td>
+                      <td>0753489877</td>
+                      <td>Male</td>
+                      <td><1 Hectare</td>
+                        <td><a class="btn btn-primary" style="margin-right:0.5rem" data-toggle="modal" data-target="#editFarmer">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+      
+      <!--modal section-->
+      <section>
+        <!-- Register Farmer Modal START -->
+        <div class="modal fade" id="registerFarmer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content " >
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle" >
+                  Register Farmer
+                </h5>
+                <button type="button" class="btn-close" data-dismiss="modal" >
+          
+                </button>
+              </div>
+              <div class="modal-body">
+               
+                <div class="mb-3 ">
+                  <!-- <label for="exampleFormControlInput1" class="form-label"
+                    >Paddy Type</label
+                  > -->
+                  <form>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Farmer Id"
+                  />
+                </div>
+                <div class="input-group" >
+                  <div class="mb-3 col-md-6">
+                    <input
+             
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div class="mb-3 col-md-6">
+                    
+                    <input
+                 
+                    style="margin-left:0.5rem; "
+                      type="text"
+                      class="form-control "
+                      id="exampleFormControlInput1"
+                      placeholder="Last Name"
+                    />
+                  </div> 
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Address"
+                  />
+                </div>
+               <div class="input-group " >
+                <div class="mb-3 col-md-6">
+                  <input
+                    type="text"
+                    class="form-control "
+                    id="exampleFormControlInput1"
+                    placeholder="City/Town"
+                  />
+                </div>
+                
+                <div class="mb-3 col-md-6">
+                  <input
+                  style="margin-left:0.5rem; "
+                    type="text"
+                    class="form-control "
+                    id="exampleFormControlInput1"
+                    placeholder="District/Province/Area "
+                  />
+                </div>
+              </div>
+              <div class="input-group ">
+                <div class="mb-3 col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="mb-3 col-md-6">
+                  <input
+                  style="margin-left:0.5rem; "
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Phone No"
+                  />
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="mb-3 col-md-6">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Gender</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+              </div>
+              <div class="mb-3 col-md-6">
+                <select class="form-select" style="margin-left:0.5rem; " aria-label="Default select example">
+                  <option selected>Land Holding</option>
+                  <option value="1"><1 Hectare</option>
+                  <option value="2">1-2 Hectare</option>
+                  <option value="2">>2 Hectare</option>
+                </select>
+              </div>
+            </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Register Farmer Modal END -->
+
+           <!-- Edit Farmer Modal START -->
+           <div class="modal fade" id="editFarmer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content " >
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle" >
+                    Edit Farmer Details
+                  </h5>
+                  <button type="button" class="btn-close" data-dismiss="modal" >
+            
+                  </button>
+                </div>
+                <div class="modal-body">
+                 
+                  <div class="mb-3 ">
+                    <!-- <label for="exampleFormControlInput1" class="form-label"
+                      >Paddy Type</label
+                    > -->
+                    <form>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Farmer Id"
+                    />
+                  </div>
+                  <div class="input-group" >
+                    <div class="mb-3 col-md-6">
+                      <input
+               
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="First Name"
+                      />
+                    </div>
+                    <div class="mb-3 col-md-6">
+                      
+                      <input
+                   
+                      style="margin-left:0.5rem; "
+                        type="text"
+                        class="form-control "
+                        id="exampleFormControlInput1"
+                        placeholder="Last Name"
+                      />
+                    </div> 
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Address"
+                    />
+                  </div>
+                 <div class="input-group " >
+                  <div class="mb-3 col-md-6">
+                    <input
+                      type="text"
+                      class="form-control "
+                      id="exampleFormControlInput1"
+                      placeholder="City/Town"
+                    />
+                  </div>
+                  
+                  <div class="mb-3 col-md-6">
+                    <input
+                    style="margin-left:0.5rem; "
+                      type="text"
+                      class="form-control "
+                      id="exampleFormControlInput1"
+                      placeholder="District/Province/Area "
+                    />
+                  </div>
+                </div>
+                <div class="input-group ">
+                  <div class="mb-3 col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="mb-3 col-md-6">
+                    <input
+                    style="margin-left:0.5rem; "
+                      type="text"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="Phone No"
+                    />
+                  </div>
+                </div>
+                <div class="input-group">
+                  <div class="mb-3 col-md-6">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                  </select>
+                </div>
+                <div class="mb-3 col-md-6">
+                  <select class="form-select" style="margin-left:0.5rem; " aria-label="Default select example">
+                    <option selected>Land Holding</option>
+                    <option value="1"><1 Hectare</option>
+                    <option value="2">1-2 Hectare</option>
+                    <option value="2">>2 Hectare</option>
+                  </select>
+                </div>
+              </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Edit Farmer Modal END -->
+      </section>
+
+
+ 
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
