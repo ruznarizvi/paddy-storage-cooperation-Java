@@ -79,23 +79,47 @@
             <li>
               <a class="nav-link" href="dashboard.html">Dashboard</a>
             </li>
-            <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
-            <!-- <li><a class="nav-link scrollto" href="#services">Paddy</a></li> -->
+     
             <li>
-              <a class="active" href="manage-paddy.html">Manage Paddy</a>
+              <a class="active" href="manage-paddy.html">Paddy Collection</a>
             </li>
             <li>
-              <a class="nav-link" href="manage-farmers.html">Manage Farmers</a>
+              <a class="nav-link " href="paddy-prices.html"
+                >Paddy Pricing</a
+              >
             </li>
             <li>
               <a class="nav-link " href="manage-orders.html"
-                >Manage Orders</a
+                >Orders</a
               >
             </li>
-            <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Center Manager</span> <i class="bi bi-chevron-down"></i></a>
+            
+            <li>
+              <a class="nav-link" href="manage-farmers.html">Farmers</a>
+            </li>
+            <li class="dropdown">
+              <a class="getstarted scrollto" href="#about"
+                ><span>Center Manager</span> <i class="bi bi-chevron-down"></i
+              ></a>
               <ul>
-                <li><a  href="#"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-person-lines-fill"><span> Profile</span></i></a></li>
-                <li><a  href="#"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-box-arrow-right"><span> Logout</span></i></a></li>
+                <li>
+                  <a href="#"
+                    ><i
+                      style="font-size: 1.1rem; margin-left: 38px"
+                      class="bi bi-person-lines-fill"
+                      ><span> Profile</span></i
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i
+                      style="font-size: 1.1rem; margin-left: 38px"
+                      class="bi bi-box-arrow-right"
+                      ><span> Logout</span></i
+                    ></a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -109,10 +133,10 @@
     <main id="main">
       <!-- ======= About Section ======= -->
 
-      <section data-aos="fade-up" data-aos-delay="200" style="margin-top: 5rem">
+      <section  style="margin-top: 5rem">
         <div class="container-xl">
           <div class="col-sm-8">						
-            <a data-toggle="modal" data-target="#addPaddy" style="margin:1rem;" class="btn btn-secondary">Add Paddy</a>
+            <a style="margin:1rem;" class="btn btn-warning">Generate Report</a>
         </div>
           <div class="table-responsive" style="margin-top: 1px;">
               <div class="table-wrapper">
@@ -130,8 +154,8 @@
                       <tr>
                         <th scope="col" style="width:10%">Paddy Id</th>
                         <th scope="col">Paddy Type</th>
-                        <th scope="col">Buying Price (Per Kg)</th>
-                        <th scope="col">Total Weight (Kg)</th>
+                        <th scope="col">Buying Price (Rs/1kg)</th>
+                        <th scope="col">Total Weight (In kg)</th>
                         <th scope="col">Total Amount</th>
                         <th scope="col">Farmer</th>
                         <th scope="col">Action</th>
@@ -141,80 +165,80 @@
                       <tr>
                         <th scope="row">1</th>
                         <td>Kalu Heenati</td>
-                        <td>Rs.134</td>
-                        <td>100</td>
+                        <td>Rs.54</td>
+                        <td>100kg</td>
                         <td>Rs.13400</td>
                         <td>Ravi Das</td>
-                        <td><a href="#" style="margin-right:0.5rem" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#">Delete</a></td>
+                        <td><a href="#" style="margin-right:0.5rem" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#" class="delete-link">Delete</a></td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
                         <td>Murungakayan</td>
-                        <td>Rs.98</td>
-                        <td>50</td>
+                        <td>Rs.48</td>
+                        <td>50kg</td>
                         <td>Rs.4900</td>
                         <td>Sunil Perera</td>
-                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#">Delete</a></td>
+                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#" class="delete-link">Delete</a></td>
                        
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Kuruwee</td>
-                        <td>Rs.109</td>
-                        <td>60</td>
+                        <td>Rs.40</td>
+                        <td>160kg</td>
                         <td>Rs.6540</td>
                         <td>Lareef Hathem</td>
-                        <td ><a style="margin-right:0.5rem" href="#"  data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#">Delete</a></td>
+                        <td ><a style="margin-right:0.5rem" href="#"  data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Samba</td>
-                        <td>Rs.103</td>
-                        <td>200</td>
+                        <td>Rs.38</td>
+                        <td>200kg</td>
                         <td>Rs.20600</td>
                         <td>Ravi Das</td>
-                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#">Delete</a></td>
+                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Kuruwee</td>
-                        <td>Rs.109</td>
-                        <td>60</td>
+                        <td>Rs.45</td>
+                        <td>180kg</td>
                         <td>Rs.6540</td>
                         <td>Lareef Hathem</td>
-                        <td ><a style="margin-right:0.5rem" href="#"  data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#">Delete</a></td>
+                        <td ><a style="margin-right:0.5rem" href="#"  data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Samba</td>
-                        <td>Rs.103</td>
-                        <td>200</td>
+                        <td>Rs.49</td>
+                        <td>150kg</td>
                         <td>Rs.20600</td>
                         <td>Ravi Das</td>
-                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#">Delete</a></td>
+                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Kuruwee</td>
-                        <td>Rs.109</td>
-                        <td>60</td>
+                        <td>Rs.50</td>
+                        <td>160kg</td>
                         <td>Rs.6540</td>
                         <td>Lareef Hathem</td>
-                        <td ><a  style="margin-right:0.5rem"  href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#">Delete</a></td>
+                        <td ><a  style="margin-right:0.5rem"  href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#" class="delete-link">Delete</a></td>
                     
                       </tr>
                       <tr>
                         <th scope="row">3</th>
                         <td>Samba</td>
-                        <td>Rs.103</td>
-                        <td>200</td>
+                        <td>Rs.43</td>
+                        <td>200kg</td>
                         <td>Rs.20600</td>
                         <td>Ravi Das</td>
-                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#">Delete</a></td>
+                        <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                
                       </tr>
   
@@ -231,101 +255,7 @@
 
       <!--modal section-->
       <section>
-        <!-- add paddy modal START -->
-        <div class="modal fade" id="addPaddy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle" style="text-align: center; margin: 1rem">
-                  ADD PADDY DETAILS
-                </h5>
-                <button type="button" class="btn-close" data-dismiss="modal" >
-          
-                </button>
-              </div>
-              <div class="modal-body">
-               
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Paddy Type</label
-                  > -->
-                  <form>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Paddy Id"
-                  />
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Paddy Type</label
-                  > -->
-                  <form>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Paddy Type"
-                  />
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Bags</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Buying Price (per Kg)"
-                  />
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Kg</label
-                  > -->
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Weight (Kg)"
-                  />
-                </div>
-
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Price</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Amount"
-                  />
-                </div>
-                
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Farmer</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Farmer "
-                  />
-                </div>
-             
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- add paddy modal END -->
+       
 
            <!-- Edit Paddy Modal START -->
            <div class="modal fade" id="editPaddy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">

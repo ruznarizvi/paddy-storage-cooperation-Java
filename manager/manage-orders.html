@@ -91,19 +91,22 @@
             <li>
               <a class="nav-link" href="dashboard.html">Dashboard</a>
             </li>
-            <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
-            <!-- <li><a class="nav-link scrollto" href="#services">Paddy</a></li> -->
+
             <li>
-              <a class="navlink" href="manage-paddy.html">Manage Paddy</a>
+              <a class="nav-link" href="manage-paddy.html">Paddy Collection</a>
             </li>
             <li>
-              <a class="nav-link" href="manage-farmers.html">Manage Farmers</a>
+              <a class="nav-link" href="paddy-prices.html">Paddy Pricing</a>
             </li>
             <li>
-              <a class="active" href="manage-orders.html">Manage Orders</a>
+              <a class="active" href="manage-orders.html">Orders</a>
+            </li>
+
+            <li>
+              <a class="nav-link" href="manage-farmers.html">Farmers</a>
             </li>
             <li class="dropdown">
-              <a class="getstarted scrollto" href="#"
+              <a class="getstarted scrollto" href="#about"
                 ><span>Center Manager</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
@@ -136,7 +139,7 @@
     <!-- End Header -->
 
     <main id="main">
-      <section data-aos="fade-up" data-aos-delay="200" style="margin-top: 5rem">
+      <section style="margin-top: 5rem">
         <div class="container-xl">
           <!-- <div class="col-sm-8">
             <a
@@ -168,69 +171,69 @@
                     <th scope="col">Total Amount</th>
                     <th scope="col">Requested Party</th>
                     <th scope="col" style="width: 10%">Status</th>
-                    <!-- <th scope="col">Delete</th> -->
+                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
                     <td>Kalu Heenati</td>
-                    <td>Rs.134</td>
-                    <td>100</td>
+                    <td>Rs.34</td>
+                    <td>100kg</td>
                     <td>Rs.13400</td>
                     <td>Ruhunu Rice Mill</td>
                     <td><a href="edit-paddy.html">Not Issued</a></td>
-                    <!-- <td><a href="#">Delete</a></td> -->
+                    <td><a href="#" class="delete-link">Delete</a></td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Murungakayan</td>
-                    <td>Rs.98</td>
-                    <td>50</td>
+                    <td>Rs.48</td>
+                    <td>50kg</td>
                     <td>Rs.4900</td>
                     <td>Keleniya Rice Cooperation</td>
                     <td><a href="edit-paddy.html">Issued</a></td>
-                    <!-- <td><a href="#">Delete</a></td> -->
+                    <td><a href="#" class="delete-link">Delete</a></td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Samba</td>
-                    <td>Rs.103</td>
-                    <td>200</td>
+                    <td>Rs.43</td>
+                    <td>200kg</td>
                     <td>Rs.20600</td>
                     <td>Samba Rice Mill</td>
                     <td><a href="edit-paddy.html">Not Issued</a></td>
-                    <!-- <td><a href="#">Delete</a></td> -->
+                    <td><a href="#" class="delete-link">Delete</a></td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
                     <td>Kuruwee</td>
-                    <td>Rs.109</td>
-                    <td>60</td>
+                    <td>Rs.49</td>
+                    <td>60kg</td>
                     <td>Rs.6540</td>
                     <td>Perera and Rice</td>
                     <td><a href="edit-paddy.html">Not Issued</a></td>
-                    <!-- <td><a href="#">Delete</a></td> -->
+                    <td><a href="#" class="delete-link">Delete</a></td>
                   </tr>
                   <tr>
                     <th scope="row">5</th>
                     <td>Samba</td>
-                    <td>Rs.103</td>
-                    <td>200</td>
+                    <td>Rs.53</td>
+                    <td>200kg</td>
                     <td>Rs.20600</td>
                     <td>Samba Rice Mill</td>
                     <td><a href="edit-paddy.html">Not Issued</a></td>
-                    <!-- <td><a href="#">Delete</a></td> -->
+                    <td><a href="#" class="delete-link">Delete</a></td>
                   </tr>
                   <tr>
                     <th scope="row">6</th>
                     <td>Kuruwee</td>
-                    <td>Rs.109</td>
-                    <td>60</td>
+                    <td>Rs.49</td>
+                    <td>60kg</td>
                     <td>Rs.6540</td>
                     <td>Perera and Rice</td>
                     <td><a href="edit-paddy.html">Not Issued</a></td>
-                    <!-- <td><a href="#">Delete</a></td> -->
+                    <td><a href="#" class="delete-link">Delete</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -250,7 +253,7 @@
           </header>
 
           <div class="row">
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="kg">
               <div class="box">
                 <img src="assets/img/values-1.png" class="img-fluid" alt="" />
                 <h3>Ad cupiditate sed est odio</h3>
@@ -378,7 +381,7 @@
 
             <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
               <div class="row align-self-center gy-4">
-                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="col-md-6" data-aos="zoom-out" data-aos-delay="kg">
                   <div class="feature-box d-flex align-items-center">
                     <i class="bi bi-check"></i>
                     <h3>Eos aspernatur rem</h3>
@@ -600,7 +603,7 @@
                   <div
                     class="col-md-6 icon-box"
                     data-aos="fade-up"
-                    data-aos-delay="200"
+                    data-aos-delay="kg"
                   >
                     <i class="ri-brush-4-line"></i>
                     <div>
@@ -677,7 +680,7 @@
             <div
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay="kg"
             >
               <div class="service-box blue">
                 <i class="ri-discuss-line icon"></i>
@@ -823,7 +826,7 @@
             <div
               class="col-lg-3 col-md-6"
               data-aos="zoom-in"
-              data-aos-delay="200"
+              data-aos-delay="kg"
             >
               <div class="box">
                 <span class="featured">Featured</span>
@@ -1105,7 +1108,7 @@
           <div
             class="row gy-4 portfolio-container"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="kg"
           >
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
@@ -1356,7 +1359,7 @@
           <div
             class="testimonials-slider swiper"
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="kg"
           >
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -1547,7 +1550,7 @@
             <div
               class="col-lg-3 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay="kg"
             >
               <div class="member">
                 <div class="member-img">

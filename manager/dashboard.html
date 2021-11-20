@@ -72,15 +72,21 @@
             </li>
      
             <li>
-              <a class="nav-link" href="manage-paddy.html">Manage Paddy</a>
+              <a class="nav-link" href="manage-paddy.html">Paddy Collection</a>
             </li>
             <li>
-              <a class="nav-link" href="manage-farmers.html">Manage Farmers</a>
+              <a class="nav-link " href="paddy-prices.html"
+                >Paddy Pricing</a
+              >
             </li>
             <li>
               <a class="nav-link " href="manage-orders.html"
-                >Manage Orders</a
+                >Orders</a
               >
+            </li>
+            
+            <li>
+              <a class="nav-link" href="manage-farmers.html">Farmers</a>
             </li>
             <li class="dropdown">
               <a class="getstarted scrollto" href="#about"
@@ -127,39 +133,47 @@
                     <div class="count-box">
                       <i class="fas fa-tractor" style="color: #15be56"></i>
                       <div>
-                        <span>234</span>
+                        <span>28,046kg</span>
                         <p>Daily Paddy Count</p>
                       </div>
                     </div>
                   </div>
-
+               
                   <div class="col-lg-3 col-md-6">
                     <div class="count-box">
-                      <i class="bi bi-emoji-smile" style="color: #ff0071"></i>
+                      <i class="bi bi-bank" style="color: #690986;"></i>
                       <div>
-                        <span>120</span>
-                        <p>No of Requested Parties</p>
+                        <span>Rs.2M</span>
+                        <p>Allocated Amount</p>
                       </div>
                     </div>
                   </div>
-
-                
                   <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                       <i class="bi bi-cash-coin" style="color: #ee6c20"></i>
+                      
 
                       <div>
-                        <span>Rs.12000</span>
-                        <p>Account Balance</p>
+                        <span>Rs.800,000</span>
+                        <p>Current Account Balance</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6">
+                  <!-- <div class="col-lg-3 col-md-6">
                     <div class="count-box">
                       <i class="bi bi-people" style="color: #bb0852"></i>
                       <div>
                         <span>134</span>
                         <p>Registered Farmers</p>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                      <i class="bi bi-emoji-smile" style="color: #ff0071"></i>
+                      <div>
+                        <span>120</span>
+                        <p>Number of Orders</p>
                       </div>
                     </div>
                   </div>
@@ -199,8 +213,8 @@
                 <tr>
                   <th scope="col" style="width:10%">Paddy Id</th>
                   <th scope="col">Paddy Type</th>
-                  <th scope="col">Buying Price (Per Kg)</th>
-                  <th scope="col">Total Weight (Kg)</th>
+                  <th scope="col">Buying Price (Rs/1kg)</th>
+                  <th scope="col">Total Weight (Rs/1kg)</th>
                   <th scope="col">Total Amount</th>
                   <th scope="col">Farmer</th>
            
@@ -210,8 +224,8 @@
                 <tr>
                   <th scope="row">1</th>
                   <td>Kalu Heenati</td>
-                  <td>Rs.134</td>
-                  <td>100</td>
+                  <td>Rs.46</td>
+                  <td>100kg</td>
                   <td>Rs.13400</td>
                   <td>Ravi Das</td>
                   <!-- <td><a href="#" style="margin-right:0.5rem" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#">Delete</a></td> -->
@@ -219,8 +233,8 @@
                 <tr>
                   <th scope="row">2</th>
                   <td>Murungakayan</td>
-                  <td>Rs.98</td>
-                  <td>50</td>
+                  <td>Rs.48</td>
+                  <td>50kg</td>
                   <td>Rs.4900</td>
                   <td>Sunil Perera</td>
             
@@ -228,8 +242,8 @@
                 <tr>
                   <th scope="row">3</th>
                   <td>Kuruwee</td>
-                  <td>Rs.109</td>
-                  <td>60</td>
+                  <td>Rs.49</td>
+                  <td>60kg</td>
                   <td>Rs.6540</td>
                   <td>Lareef Hathem</td>
                 
@@ -237,8 +251,8 @@
                 <tr>
                   <th scope="row">3</th>
                   <td>Samba</td>
-                  <td>Rs.103</td>
-                  <td>200</td>
+                  <td>Rs.53</td>
+                  <td>200kg</td>
                   <td>Rs.20600</td>
                   <td>Ravi Das</td>
                  
@@ -246,8 +260,8 @@
                 <tr>
                   <th scope="row">3</th>
                   <td>Kuruwee</td>
-                  <td>Rs.109</td>
-                  <td>60</td>
+                  <td>Rs.39</td>
+                  <td>60kg</td>
                   <td>Rs.6540</td>
                   <td>Lareef Hathem</td>
                 
@@ -256,8 +270,8 @@
                 <tr>
                   <th scope="row">3</th>
                   <td>Samba</td>
-                  <td>Rs.103</td>
-                  <td>200</td>
+                  <td>Rs.48</td>
+                  <td>200kg</td>
                   <td>Rs.20600</td>
                   <td>Ravi Das</td>
                  
@@ -266,8 +280,8 @@
                 <tr>
                   <th scope="row">3</th>
                   <td>Kuruwee</td>
-                  <td>Rs.109</td>
-                  <td>60</td>
+                  <td>Rs.53</td>
+                  <td>60kg</td>
                   <td>Rs.6540</td>
                   <td>Lareef Hathem</td>
             
@@ -276,8 +290,8 @@
                 <tr>
                   <th scope="row">3</th>
                   <td>Samba</td>
-                  <td>Rs.103</td>
-                  <td>200</td>
+                  <td>Rs.43</td>
+                  <td>200kg</td>
                   <td>Rs.20600</td>
                   <td>Ravi Das</td>
                   

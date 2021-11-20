@@ -38,6 +38,13 @@ div.scrollmenu {
   -webkit-border-radius: 1ex;
 }
 
+.delete-link {
+  color: red;
+}
+.delete-link:hover {
+  color: rgb(190, 38, 38) !important;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
