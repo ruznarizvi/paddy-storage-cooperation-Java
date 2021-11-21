@@ -44,51 +44,17 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li>
-            <a class="nav-link" href="dashboard.html">Dashboard</a>
-          </li>
-   
-          <li>
-            <a class="nav-link" href="manage-paddy.html">Paddy Collection</a>
-          </li>
-        
-          <li>
-            <a class="nav-link " href="manage-orders.html"
-              >Orders</a
-            >
-          </li>
-          <li>
-            <a class="active " href="paddy-prices.html"
-              >Paddy Pricing</a
-            >
-          </li>
-          
-          <li>
-            <a class="nav-link" href="manage-farmers.html">Farmers</a>
-          </li>
-          <li class="dropdown">
-            <a class="getstarted scrollto" href="#about"
-              ><span>Center Manager</span> <i class="bi bi-chevron-down"></i
-            ></a>
+          <li><a class="nav-link scrollto active" href="dashboard.html">Dashboard</a></li>
+          <!-- <li><a class="nav-link scrollto" href="about.html">About</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="orders.html">Orders</a></li> -->
+          <li><a class="nav-link scrollto" href="paddy-prices.html">Paddy Pricing</a></li>
+          <!-- <li><a class="nav-link scrollto" href="payments.html">Payments</a></li> -->
+          <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Store Keeper </span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li>
-                <a href="#"
-                  ><i
-                    style="font-size: 1.1rem; margin-left: 38px"
-                    class="bi bi-person-lines-fill"
-                    ><span> Profile</span></i
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><i
-                    style="font-size: 1.1rem; margin-left: 38px"
-                    class="bi bi-box-arrow-right"
-                    ><span> Logout</span></i
-                  ></a
-                >
-              </li>
+              <li><a  href="#"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-person-lines-fill"><span> Profile</span></i></a></li>
+              <li><a  href="#"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-box-arrow-right"><span> Logout</span></i></a></li>
+            </ul>
+          </li></li>
             </ul>
           </li>
         </ul>
@@ -150,7 +116,7 @@
                           <div class="table-title">
                               <div class="row">
                                   <div class="col-sm-4">
-                                      <h2>Current Paddy Pricing Details</h2>
+                                      <h2>Manage Current Paddy Capacity</h2>
                                   </div>
                                 
                               </div>
@@ -163,8 +129,9 @@
                                   <th>Buying Price (Rs/1kg)</th>					
                                   <th>Selling Price (Rs/1kg)</th>
                                   <th>Available Quantity</th>	
-                                  <th style="width:18%">Total Capacity</th>	
-                                  <!-- <th style="width:10%">Action</th> -->
+                                  <th>Total Capacity</th>	
+                                  <th style="">Vehicle Allocated</th>
+                                  <th style="width:10%">Action</th>
                               </tr>
                           </thead>
                           <tbody>
@@ -173,18 +140,20 @@
                                   <td>Samba</td>
                                   <td>Rs.38</td>
                                   <td>Rs.43</td>
-                                  <td>800kg</td>                        
+                                  <td>1300kg</td>                        
                                   <td>1000kg</td>   
-                                  <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td> -->
+                                  <td>Yes</td>
+                                  <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td>
                               </tr>
                               <tr>
                                 <td>2</td>
                                 <td>Nadu</td>
                                 <td>Rs.35</td>
                                   <td>Rs.41</td>
-                                  <td>600kg</td>                        
-                                  <td>1800kg</td>   
-                                  <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td> -->
+                                  <td>900kg</td>                        
+                                  <td>800kg</td>  
+                                  <td>Not Yet</td> 
+                                  <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td>
                             </tr>
                             <tr>
                               <td>3</td>
@@ -192,8 +161,9 @@
                                 <td>Rs.37</td>
                                   <td>Rs.45</td>
                                   <td>640kg</td>                        
-                                  <td>1950kg</td>   
-                                  <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td> -->
+                                  <td>1950kg</td> 
+                                  <td >Not Necessary</td>  
+                                  <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                           </tr>
                           <tr>
                             <td>4</td>
@@ -201,8 +171,9 @@
                             <td>Rs.32</td>
                                   <td>Rs.38</td>
                                   <td>450kg</td>                        
-                                  <td>1800kg</td>   
-                                  <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td> -->
+                                  <td>1800kg</td> 
+                                  <td>Not Necessary</td>   
+                                  <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td>
                         </tr>
                         <tr>
                           <td>5</td>
@@ -211,7 +182,8 @@
                           <td>Rs.45</td>
                           <td>600kg</td>                        
                           <td>1700kg</td>   
-                          <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td> -->
+                          <td>Not Necessary</td> 
+                          <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                       </tr>
                       <tr>
                         <td>6</td>
@@ -220,7 +192,8 @@
                         <td>Rs.37</td>
                         <td>400kg</td>                        
                         <td>1500kg</td>   
-                        <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td> -->
+                        <td>Not Necessary</td> 
+                        <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                     </tr>
                     <tr>
                       <td>7</td>
@@ -229,7 +202,8 @@
                       <td>Rs.51</td>
                       <td>556kg</td>                        
                       <td>1900kg</td>   
-                      <!-- <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td> -->
+                      <td>Not Necessary</td> 
+                      <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                   </tr>
                           </tbody>
                           </table>
