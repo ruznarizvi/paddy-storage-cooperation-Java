@@ -34,7 +34,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style='background-color: var(--backdrop);'>
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
@@ -50,7 +50,7 @@
           <li><a class="nav-link scrollto" href="dashboard.html">Dashboard</a></li>
           <!-- <li><a class="nav-link scrollto" href="about.html">About</a></li> -->
           <li><a class="nav-link scrollto" href="orders.html">Orders</a></li>
-          <li><a class="nav-link scrollto" href="paddy_prices.html">Paddy Prices</a></li>
+          <li><a class="nav-link scrollto" href="paddy_prices.html">Paddy Pricing</a></li>
           <li><a class="nav-link scrollto active" href="payments.html">Payments</a></li>
           <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Finance Officer</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -65,14 +65,97 @@
     </div>
   </header><!-- End Header -->
 
-
+  <section style="">
+    <div class="container-xl">
+      
+      <div class="table-responsive" style="margin-top: 100px;">
+        <div class="col-sm-8">
+          <a
+            href="manage-paddy.html"
+            style="margin:1rem"
+            class="btn btn-warning"
+            >Generate Report</a
+          >
+        </div>
+          <div class="table-wrapper">
+              <div class="table-title">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <h2>Payments Issued</h2>
+                      </div>
+                  
+                  </div>
+              </div>
+              <div class="scrollmenu">
+                <table class="table table-striped table-hover">
+                  <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Farmers' Name</th>
+                        <th>Paddy Type</th>						
+                        <th>Total Weight(kg)</th>					
+                        <th>Total Amount</th>
+                        <th>Order Date</th>	
+                          <th>Status</th>	
+                          <th style="width: 200px;">Action</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+            
+                  <tr>
+                    <td>4</td>
+                    <td>Mahela Jayawardane</td>
+                    <td>Samba</td>
+                    <td>5kg</td>
+                    <td>Rs.20,000</td>
+                    <td>Jun 15, 2021</td>                        
+                    <td><span class="status text-danger">&bull;</span> Cancelled</td>
+                    <td><a href="#" style="color:#1bbe15;">Invoice Issued</a>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Mahela Jayawardane</td>
+                  <td>Samba</td>
+                  <td>5kg</td>
+                  <td>Rs.20,000</td>
+                  <td>Jun 15, 2021</td>                        
+                  <td><span class="status text-warning">&bull;</span> Unpaid</td>
+                  <td><a class="view" data-toggle="modal" data-target="#issueorder" style="color:#1bbe15;">Invoice Issued</a> 
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Mahela Jayawardane</td>
+                <td>Samba</td>
+                <td>5kg</td>
+                <td>Rs.20,000</td>
+                <td>Jun 15, 2021</td>                        
+                <td><span class="status text-success">&bull;</span> Paid</td>
+                <td><a class="view" data-toggle="modal" data-target="#issueorder" style="color:#1bbe15;">Invoice Issued</a>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Kumar Dharmasena</td>
+              <td>Nadu</td>
+              <td>18kg</td>
+              <td>Rs.42,000</td>
+              <td>Aug 19, 2021</td>                        
+              <td><span class="status text-success">&bull;</span> Paid</td>
+              <td><a class="view" data-toggle="modal" data-target="#issueorder" style="color:#1bbe15;">Invoice Issued</a>
+          </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+      </div>        
+  </div>  
+  </section>   
 
  
 
 
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
+  <!-- <footer id="footer" class="footer">
 
     <div class="footer-top">
       <div class="container">
@@ -135,7 +218,7 @@
         &copy; Copyright <strong><span>Paddy Storage Cooperation</span></strong>. All Rights Reserved
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
