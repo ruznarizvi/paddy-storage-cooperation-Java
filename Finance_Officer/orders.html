@@ -46,7 +46,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="dashboard.html">Dashboard</a></li>
           <!-- <li><a class="nav-link scrollto" href="about.html">About</a></li> -->
-          <li><a class="nav-link scrollto active" href="orders.html">Orders</a></li>
+          <li><a class="nav-link scrollto active" href="orders.html">Paddy Collection</a></li>
           <li><a class="nav-link scrollto" href="paddy_prices.html">Paddy Pricing</a></li>
           <li><a class="nav-link scrollto" href="payments.html">Payments</a></li>
           <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Finance Officer</span> <i class="bi bi-chevron-down"></i></a>
@@ -67,11 +67,15 @@
                 <section data-aos="fade-up" data-aos-delay="200" style="margin-top: -5rem"></section>
                 <div class="container-xl">
                   <div class="table-responsive" style="margin-top: 100px;">
+                  <p>collection paddy + farmer issued payment</p>
+
                       <div class="table-wrapper">
                           <div class="table-title">
+                            
                               <div class="row">
+                                
                                   <div class="col-sm-4">
-                                      <h2>Order Details</h2>
+                                      <h2>Daily Paddy Purchases</h2>
                                   </div>
                                 
                               </div>
@@ -99,7 +103,7 @@
                                       <td>Rs.20,000</td>
                                       <td>Jun 15, 2021</td>                        
                                       <td><span class="status text-success">&bull;</span> Paid</td>
-                                      <td><a class="view" data-toggle="modal" data-target="#issueorder" style="color:#1bbe15;">Issue</a> | <a href="#" style="color:#ff0000;">Cancel</a></td>
+                                      <td><a class="view" data-toggle="modal" data-target="#issueorder" style="color:#1bbe15;">Edit Status</a> 
                                   </tr>
                                   <tr>
                                     <td>2</td>
@@ -185,70 +189,10 @@
                 </button>
               </div>
               <div class="modal-body">
-               
-                <div class="mb-3">
-                  <label>Order Id:</label>
-                  <form>
-                  <input style="font-size: small; height: 30px;"
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Id"
-                  />
-                </div>
-                <div class="mb-3">
-                    <label>Farmer's Name:</label>
-                  <form>
-                  <input
-                  style="font-size: small; height: 30px;"
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Farmer's Name"
-                  />
-                </div>
-                <div class="mb-3">
-                    <label>Paddy Type:</label>
-                  <input
-                  style="font-size: small; height: 30px;"
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Paddy Type"
-                  />
-                </div>
-                <div class="mb-3">
-                    <label>Paddy Weight(kg):</label>
-                  <input
-                  style="font-size: small; height: 30px;"
-                    type="number"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Kg"
-                  />
-                </div>
-
-                <div class="mb-3">
-                    <label>Total Amount:</label>
-                  <input
-                  style="font-size: small; height: 30px;"
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Amount"
-                  />
-                </div>
+               <form>
+              
                 
-                <div class="mb-3">
-                    <label>Order Date:</label>
-                  <input
-                  style="font-size: small; height: 30px;"
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Order Date"
-                  />
-                </div>
+             
 
                 <div class="mb-3">
                     <label>Order Status:</label>

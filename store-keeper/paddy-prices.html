@@ -47,7 +47,7 @@
           <li><a class="nav-link " href="dashboard.html">Dashboard</a></li>
           <!-- <li><a class="nav-link scrollto" href="about.html">About</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="orders.html">Orders</a></li> -->
-          <li><a class="active" href="paddy-prices.html">Paddy Pricing</a></li>
+          <li><a class="active" href="paddy-prices.html">Manage Paddy Capacity</a></li>
           <!-- <li><a class="nav-link scrollto" href="payments.html">Payments</a></li> -->
           <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Store Keeper </span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -109,9 +109,9 @@
                   <div class="container-xl">
                  
                   <div class="table-responsive" style="margin-top: 100px;">
-                    <div class="col-sm-8">						
+                    <!-- <div class="col-sm-8">						
                       <a  style="margin:1rem" class="btn btn-warning">Generate Report</a>
-                  </div>
+                  </div> -->
                       <div class="table-wrapper">
                           <div class="table-title">
                               <div class="row">
@@ -129,8 +129,7 @@
                                   <th>Buying Price (Rs/1kg)</th>					
                                   <th>Selling Price (Rs/1kg)</th>
                                   <th>Available Quantity</th>	
-                                  <th>Total Capacity</th>	
-                                  <th style="">Vehicle Allocated</th>
+                                 
                                   <th style="width:10%">Action</th>
                               </tr>
                           </thead>
@@ -141,8 +140,7 @@
                                   <td>Rs.38</td>
                                   <td>Rs.43</td>
                                   <td>1300kg</td>                        
-                                  <td>1000kg</td>   
-                                  <td>Yes</td>
+                                
                                   <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td>
                               </tr>
                               <tr>
@@ -151,8 +149,7 @@
                                 <td>Rs.35</td>
                                   <td>Rs.41</td>
                                   <td>900kg</td>                        
-                                  <td>800kg</td>  
-                                  <td>Not Yet</td> 
+                                 
                                   <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td>
                             </tr>
                             <tr>
@@ -161,8 +158,7 @@
                                 <td>Rs.37</td>
                                   <td>Rs.45</td>
                                   <td>640kg</td>                        
-                                  <td>1950kg</td> 
-                                  <td >Not Necessary</td>  
+                                  
                                   <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                           </tr>
                           <tr>
@@ -171,8 +167,7 @@
                             <td>Rs.32</td>
                                   <td>Rs.38</td>
                                   <td>450kg</td>                        
-                                  <td>1800kg</td> 
-                                  <td>Not Necessary</td>   
+                                  
                                   <td><a href="#" data-toggle="modal" data-target="#edit-capacity"  >Edit Capacity</a></td>
                         </tr>
                         <tr>
@@ -181,8 +176,7 @@
                           <td>Rs.36</td>
                           <td>Rs.45</td>
                           <td>600kg</td>                        
-                          <td>1700kg</td>   
-                          <td>Not Necessary</td> 
+                        
                           <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                       </tr>
                       <tr>
@@ -191,8 +185,7 @@
                         <td>Rs.33</td>
                         <td>Rs.37</td>
                         <td>400kg</td>                        
-                        <td>1500kg</td>   
-                        <td>Not Necessary</td> 
+                       
                         <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                     </tr>
                     <tr>
@@ -201,8 +194,7 @@
                       <td>Rs.45</td>
                       <td>Rs.51</td>
                       <td>556kg</td>                        
-                      <td>1900kg</td>   
-                      <td>Not Necessary</td> 
+                     
                       <td><a href="#" data-toggle="modal" data-target="#edit-capacity" >Edit Capacity</a></td>
                   </tr>
                           </tbody>
@@ -236,14 +228,7 @@
                   placeholder="Available Quantity"
                 />
               </div>
-                <div class="mb-3 ">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Capacity"
-                  />
-                </div>
+              
               </form>
             </div>
             <div class="modal-footer">

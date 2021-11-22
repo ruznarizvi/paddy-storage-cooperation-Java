@@ -38,6 +38,17 @@ div.scrollmenu {
   -webkit-border-radius: 1ex;
 }
 
+div.form {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;

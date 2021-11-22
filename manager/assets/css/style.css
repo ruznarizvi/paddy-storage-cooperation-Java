@@ -44,6 +44,16 @@ div.scrollmenu {
 .delete-link:hover {
   color: rgb(190, 38, 38) !important;
 }
+div.form {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
