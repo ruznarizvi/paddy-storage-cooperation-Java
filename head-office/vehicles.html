@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+        <title>Paddy Storage Cooperation</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"/>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+  </head>
+
+  <body style="background-color: var(--backdrop) !important;">
+
+     <!-- ======= Header ======= -->
+     <header id="header" class="header fixed-top">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  
+        <a href="dashboard.html" class="logo d-flex align-items-center">
+          <img style=" width: 30px;" src="assets/img/logo_final.png" alt="">
+          <span style="font-size: 1rem;">PADDY STORAGE COOPERATION</span>
+        </a>
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="dashboard.html">Dashboard</a></li>
+            <li><a class="nav-link scrollto" href="centers.html">Centers</a></li>
+            <li><a class="nav-link scrollto" href="paddy_prices.html">Paddy Pricing</a></li>
+            <li><a class="nav-link scrollto" href="orders.html">Orders</a></li>
+            <li><a class="nav-link scrollto" href="manager_details.html">Managers</a></li>
+            <li><a class="nav-link scrollto" href="allocated_vehicle.html">Allocate Vehicle</a></li>
+            <li><a class="nav-link scrollto" href="payments.html">Payments</a></li>
+            <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Admin</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a  href="profile.html"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-person-lines-fill"><span> Profile</span></i></a></li>
+                <li><a  href="#"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-box-arrow-right"><span> Logout</span></i></a></li>
+              </ul>
+            </li></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    </header><!-- End Header -->
+
+
+ 
+                  <section>
+                  <div class="container-xl">
+                 
+                  <div class="table-responsive" style="margin-top: 40px;">
+                    <div class="col-sm-14">						
+                      <a href="add_new_vehicle.html" style="margin:1rem;" class="btn btn-success">+ Add New Vehicle</a>
+                        <a href="allocated_vehicle.html" type="button" class="btn btn-secondary">Back</a>
+                    </div>
+                  </div>
+                      <div class="table-wrapper" style="margin-top: -30px;">
+                          <div class="table-title">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <h2>Vehicle Details</h2>
+                                  </div>
+                                
+                              </div>
+                          </div>
+                        
+                          <table class="table table-striped table-hover">
+                            <thead>
+                              <tr>
+                                  <th>Id</th>
+                                  <th>Driver Name</th>
+                                  <th>NIC</th>	
+                                  <th>Mobile Number</th>	
+                                  <th>Vehicle Type</th>
+                                  <th>Vehicle No:</th>											
+                                  <th>Capacity Limit(kg)</th>	
+                                  <th style="width:20%">Action</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>Virat</td>
+                                  <td>200187354677V</td>
+                                  <td>0758976125</td>
+                                  <td>Lorry</td>
+                                  <td>KH2381</td>   
+                                  <td>800kg</td>                       
+                                  <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>Dhoni</td>
+                                <td>200187354677V</td>
+                                <td>0758976125</td>
+                                <td>Lorry</td>
+                                <td>KH2381</td>   
+                                <td>800kg</td>                       
+                                <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>Pant</td>
+                              <td>200187354677V</td>
+                              <td>0758976125</td>
+                              <td>Lorry</td>
+                              <td>KH2381</td>   
+                              <td>800kg</td>                       
+                              <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Rohit</td>
+                            <td>200187354677V</td>
+                            <td>0758976125</td>
+                            <td>Lorry</td>
+                            <td>KH2381</td>   
+                            <td>800kg</td>                       
+                            <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>KL Rahul</td>
+                          <td>200187354677V</td>
+                          <td>0758976125</td>
+                          <td>Lorry</td>
+                          <td>KH2381</td>   
+                          <td>800kg</td>                       
+                          <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Bumrah</td>
+                        <td>200187354677V</td>
+                        <td>0758976125</td>
+                        <td>Lorry</td>
+                        <td>KH2381</td>   
+                        <td>800kg</td>                       
+                        <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>Nattu</td>
+                      <td>200187354677V</td>
+                      <td>0758976125</td>
+                      <td>Lorry</td>
+                      <td>KH2381</td>   
+                      <td>800kg</td>                       
+                      <td><a href="update_vehicle_details.html" class="view" style="color:#1bbe15;">Update</a> | <a href="#" style="color:#ff0000;">Delete</a></td>
+                  </tr>
+                          </tbody>
+                          </table>
+                      </div>
+                  </div>        
+              </div>  
+              </section>   
+              
+      <!-- End About Section -->
+
+      <br>
+           
+            
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

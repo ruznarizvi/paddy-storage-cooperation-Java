@@ -38,8 +38,7 @@
   ======================================================== -->
 </head>
 
-<body style="background-color: var(--backdrop) !important;">
-
+<body>
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -54,8 +53,8 @@
           <li><a class="nav-link " href="dashboard.html">Dashboard</a></li>
           <!-- <li><a class="nav-link scrollto" href="about.html">About</a></li> -->
           <li><a class="active" href="collect-paddy.html">Collect Paddy</a></li>
-          <li><a class="nav-link scrollto" href="paddy_prices.html">Paddy Prices</a></li>
-     
+          <li><a class="nav-link scrollto" href="paddy_prices.html">Paddy Pricing</a></li>
+          <li><a class="nav-link scrollto" href="farmers.html">Farmers</a></li>
           <li class="dropdown"><a class="getstarted scrollto" href="#about"><span>Collection Officer</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a  href="profile.html"><i style="font-size: 1.1rem; margin-left: 38px;" class="bi bi-person-lines-fill"><span> Profile</span></i></a></li>
@@ -73,7 +72,7 @@
       <div class="container-xl">
         <p>collected paddy details table</p>
         <div class="col-sm-8">						
-          <a style="margin:1rem;" data-toggle="modal" data-target="#addPaddy" class="btn btn-success">Collect Paddy</a>
+          <a style="margin:1rem;" href="collect-new-paddy.html" class="btn btn-success">Collect Paddy</a>
       </div>
         <div class="table-responsive" style="margin-top: 1px;">
             <div class="table-wrapper">
@@ -95,7 +94,6 @@
                       <th scope="col">Buying Price (Rs/1kg)</th>
                       <th scope="col">Total Weight (In kg)</th>
                       <th scope="col">Total Amount</th>
-                      
                       <th scope="col">Purchase Date</th>
                       <th scope="col">Action</th>
                     </tr>
@@ -109,7 +107,7 @@
                       <td>100kg</td>
                       <td>Rs.13400</td>
                       <td>Jun 15, 2021</td>   
-                      <td><a href="#" style="margin-right:0.5rem" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#" class="delete-link">Delete</a></td>
+                      <td><a href="edit-collected-paddy.html" style="margin-right:0.5rem">Edit</a><a href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
@@ -119,8 +117,7 @@
                       <td>50kg</td>
                       <td>Rs.4900</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#" class="delete-link">Delete</a></td>
-                     
+                      <td ><a style="margin-right:0.5rem" href="edit-collected-paddy.html">Edit</a><a href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -130,8 +127,7 @@
                       <td>160kg</td>
                       <td>Rs.6540</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a style="margin-right:0.5rem" href="#"  data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
-                  
+                      <td ><a style="margin-right:0.5rem" href="edit-collected-paddy.html" >Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -141,8 +137,7 @@
                       <td>200kg</td>
                       <td>Rs.20600</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
-             
+                      <td ><a style="margin-right:0.5rem" href="edit-collected-paddy.html">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -152,8 +147,7 @@
                       <td>180kg</td>
                       <td>Rs.6540</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a style="margin-right:0.5rem" href="#"  data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
-                  
+                      <td ><a style="margin-right:0.5rem" href="edit-collected-paddy.html">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -163,8 +157,7 @@
                       <td>150kg</td>
                       <td>Rs.20600</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
-             
+                      <td ><a style="margin-right:0.5rem" href="edit-collected-paddy.html" >Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -174,8 +167,7 @@
                       <td>160kg</td>
                       <td>Rs.6540</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a  style="margin-right:0.5rem"  href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a href="#" class="delete-link">Delete</a></td>
-                  
+                      <td ><a  style="margin-right:0.5rem"  href="edit-collected-paddy.html">Edit</a><a href="#" class="delete-link">Delete</a></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
@@ -185,8 +177,7 @@
                       <td>200kg</td>
                       <td>Rs.20600</td>
                       <td>Jun 15, 2021</td>   
-                      <td ><a style="margin-right:0.5rem" href="#" data-toggle="modal" data-target="#editPaddy">Edit</a><a  href="#" class="delete-link">Delete</a></td>
-             
+                      <td ><a style="margin-right:0.5rem" href="edit-collected-paddy.html">Edit</a><a  href="#" class="delete-link">Delete</a></td>
                     </tr>
 
                   </tbody>
@@ -197,219 +188,6 @@
     </div>     
     </section>
 
- <section>
-    <!-- add paddy modal START -->
-    <div class="modal fade" id="addPaddy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle" style="text-align: center; margin: 1rem">
-              ADD PADDY DETAILS
-            </h5>
-            <button type="button" class="btn-close" data-dismiss="modal" >
-      
-            </button>
-          </div>
-          <div class="modal-body">
-<!--            
-            <div class="mb-3">
-         
-              <form>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Paddy Id"
-              />
-            </div> -->
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlInput1" class="form-label"
-                >Paddy Type</label
-              > -->
-              <form>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Paddy Type"
-              />
-            </div>
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlInput1" class="form-label"
-                >Bags</label
-              > -->
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Buying Price (Rs/1kg)"
-              />
-            </div>
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlInput1" class="form-label"
-                >Kg</label
-              > -->
-              <input
-                type="number"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Total Weight (In kg)"
-              />
-            </div>
-
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlInput1" class="form-label"
-                >Price</label
-              > -->
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Total Amount"
-              />
-            </div>
-            
-         
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlInput1" class="form-label"
-                >Farmer</label
-              > -->
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Farmer Name"
-              />
-            </div>
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlInput1" class="form-label"
-                >Farmer</label
-              > -->
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Farmer Id"
-              />
-            </div>
-         
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- add paddy modal END -->
-
-        <!-- edit paddy modal START -->
-        <div class="modal fade" id="editPaddy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle" style="text-align: center; margin: 1rem">
-                  EDIT PADDY DETAILS
-                </h5>
-                <button type="button" class="btn-close" data-dismiss="modal" >
-          
-                </button>
-              </div>
-              <div class="modal-body">
-    <!--            
-                <div class="mb-3">
-             
-                  <form>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Paddy Id"
-                  />
-                </div> -->
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Paddy Type</label
-                  > -->
-                  <form>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Paddy Type"
-                  />
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Bags</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Buying Price (Rs/1kg)"
-                  />
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Kg</label
-                  > -->
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Weight (In kg)"
-                  />
-                </div>
-    
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Price</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Total Amount"
-                  />
-                </div>
-                
-             
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Farmer</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Farmer Name"
-                  />
-                </div>
-                <div class="mb-3">
-                  <!-- <label for="exampleFormControlInput1" class="form-label"
-                    >Farmer</label
-                  > -->
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="Farmer Id"
-                  />
-                </div>
-             
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- edit paddy modal END -->
- </section>
   <!-- ======= Footer ======= -->
   <!-- <footer id="footer" class="footer">
 

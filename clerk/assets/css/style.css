@@ -37,6 +37,12 @@ div.scrollmenu {
   background: var(--scroll-bar);
   -webkit-border-radius: 1ex;
 }
+.delete-link {
+  color: red;
+}
+.delete-link:hover {
+  color: rgb(190, 38, 38) !important;
+}
 
 div.form {
   display: block;
@@ -52,6 +58,7 @@ form {
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: var(--backdrop);
 }
 
 a {
@@ -2316,10 +2323,6 @@ table.table .avatar {
   font-size: 13px;
 }
 
-
-
-
-
 /*--------------------------------------------------------------
 # Profile
 --------------------------------------------------------------*/
@@ -2366,13 +2369,13 @@ table.table .avatar {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  font-size: .825rem;
+  font-size: 0.825rem;
   background: #ffffff;
   color: #2e323c;
   margin-top: 0.3rem;
 }
 
-.form-group label{
+.form-group label {
   margin-top: 0.5rem;
 }
 
