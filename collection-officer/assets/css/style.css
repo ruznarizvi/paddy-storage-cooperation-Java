@@ -22,6 +22,14 @@
   background: #4154f1 !important;
 }
 
+.logout {
+  color: #012970;
+  background: fff;
+}
+
+.logout:hover {
+  color: #4154f1;
+}
 div.scrollmenu {
   /* background-color: #333; */
   /* height: 450px; */
